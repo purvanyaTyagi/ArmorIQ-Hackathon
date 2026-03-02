@@ -1,0 +1,14 @@
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    background: transparent;
+    /* Background handled by body in index.css */
+}
+
+.main-content {
+    margin-left: 280px;
+    /* Width of sidebar */
+    flex: 1;
+    padding: 40px;
+    min-height: 100vh;
+}
